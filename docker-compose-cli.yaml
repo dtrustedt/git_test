@@ -3,7 +3,6 @@ services:
   cli:
     container_name: cli
     image: hyperledger/fabric-tools:2.2.3
-    tty: true
     environment:
       - GOPATH=/opt/gopath
       - CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
