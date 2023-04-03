@@ -18,5 +18,5 @@ services:
     working_dir: /opt/home
     command: /bin/bash
     volumes:
-        - /var/run/:/host/var/run/
-        - /home/ec2-user/fabric-s
+      - /var/run/:/host/var/run/
+      - /home/ec2-user/fabric-s
